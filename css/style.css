@@ -1,0 +1,178 @@
+.logo{
+	
+	width: 250px;
+	position: relative;
+	filter: brightness(100);
+	top: -40px;
+}
+.navbar{
+	margin-bottom: 0px!important;
+}
+.navbar-default {
+    background-color: #d51a0f!important;
+    border-color: transparent!important;
+}
+.header{
+	position: relative;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff!important;
+}
+
+.section2:before{
+	  content: "";
+    width: 100%;
+    height: 100%;
+       background: linear-gradient(to bottom,#d7190e 0,rgba(17,153,238,0) 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.section2{
+background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 52px;
+    padding-top: 150px;
+    margin-bottom: 300px;
+    background-position: center;
+}
+.section2 .carousel .card .bg-img{
+	overflow: hidden;
+}
+.section2 .carousel .card .dis{
+	padding: 0px 10px;
+}
+
+#quote-carousel{
+	    position: relative;
+	    top: 209px;
+}
+.section2 .carousel .card{
+background-color: white;
+
+}
+
+.section3 .card .bg-img img{
+	width: 100%;
+}
+.section3  .card .dis{
+	padding: 0px 10px;
+}
+.section3  .card{
+background-color: white;
+
+}
+.section3 .contact textarea{
+	width: 100%;
+}
+.section3 .contact{
+background: white;
+    padding: 10px 30px;
+}
+.section3 .contact h2{
+ 
+    padding: 0px;
+    color:#d81c11;
+    text-align: center;
+    border-left: 20px solid black;
+    margin-bottom: 30px;
+     border-right: 20px solid black;
+
+	}
+	.About-karthik{
+		margin-top: 30px;
+	}
+	.About-karthik ol{
+		margin-top: 20px;
+	}
+	.About-karthik ol li{
+		float: left;
+		margin-right: 15px;
+
+	}
+
+footer{
+	margin: 30px 0px;
+}
+	footer ul {
+		    display: inline-flex;
+	}
+footer ul li{
+	margin-right:10px;
+}
+
+/*visa*/
+.visa {
+	background-image: url(../images/visa.jpg)!important;
+    margin-bottom: 80px;
+    padding: 210px 0px;
+}
+.visa ul {
+	display: inline-flex;
+	margin-top: 30px;
+	
+}
+.visa ul li{
+color: #fff;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 900;
+
+	}
+.visa ul li i{
+font-size: 36px;
+}
+.visa-section2 .visa-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.visa-section2 .visa-card .media .media-left{
+	width: 15%;
+}
+.visa-section2 .visa-card .media .media-left img{
+	border-radius: 50px;
+	width: 100px;
+	    box-shadow: 1px 1px 5px;
+}
+.visa-section2 .visa-card .media .media-body{
+	vertical-align: middle!important;
+}
+
+/*visa end*/
+
+/*holidays start*/
+.holidays {
+	background-image: url(../images/holidays.jpg)!important;
+    margin-bottom: 80px;
+    padding: 250px 0px;
+}
+#search{
+	    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    top:-50px;
+    padding: 9px;
+    background-color: transparent;
+    border: navajowhite;
+    border-bottom: 2px solid white;
+    color: #fff;
+        font-size: 36px;
+
+}
+#search:focus{
+	outline: none;
+}
+.holidays ul {
+	display: inline-flex;
+}
+.holidays ul li{
+	margin-right: 30px;
+	font-size: 20px;
+	font-weight: 800;
+	color: #ffffff;
+	cursor: pointer;
+
+	}

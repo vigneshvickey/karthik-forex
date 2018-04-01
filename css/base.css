@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+/* )==[::::::::::::>   Reset CSS */
+/* http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126   License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary,
+time, mark, audio, video {  margin: 0;  padding: 0; border: 0;  font-size: 100%;  font: inherit;  vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {  display: block; }
+body {  line-height: 1;}
+ol, ul {  list-style: none;}
+blockquote, q {   quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {  content: '';  content: none;}
+table {   border-collapse: collapse;  border-spacing: 0;}
+
+/* )==[::::::::::::>   Import  Font Weight Size */
+
+
+h1, h2, h3, h4, h5, h6, li{    font-family: 'Titillium Web', sans-serif!important; letter-spacing: .06em; } 
+p, span, a, div, input, textarea, select{font-family: 'Titillium Web', sans-serif!important; letter-spacing: .06em; }
+body, a{ font-weight: 400;}
+a:hover{
+	text-decoration: none!important;
+}
+p{ font-weight: 300;font-size: 16px;
+ }
+h1, h2, h3, h4{   font-weight: 800!important; }
+input, textarea, select{ font-weight: 300; }
+img{max-width: 100%;}
+body {
+        background-color: #f3f2f2!important;
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.karthik { 
+	    margin: 0 auto;
+	border-right: .1em solid black;
+	width: 29ch;
+	text-align: center;
+	position: relative;
+	color: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 2s steps(21, end),
+	           blink-caret .5s step-end infinite;
+}
+/*testmonial*/
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -65px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -62px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 100%;
+  height: auto;
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.carousel{
+    z-index: 999;
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/*?end of testimonial*/
+
+.go-btn{
+	position: absolute;
+    top: 0;
+    right: 0;
+}
