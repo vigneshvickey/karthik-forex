@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /* )==[::::::::::::>   Reset CSS */
 /* http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126   License: none (public domain) */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
@@ -14,23 +14,25 @@ ol, ul {  list-style: none;}
 blockquote, q {   quotes: none;}
 blockquote:before, blockquote:after, q:before, q:after {  content: '';  content: none;}
 table {   border-collapse: collapse;  border-spacing: 0;}
-
+h1, h2, h3, h4, h5, h6, li{    font-weight: 300!important; 
+     line-height: 1.4!important;} 
 /* )==[::::::::::::>   Import  Font Weight Size */
+/*
 
 
-h1, h2, h3, h4, h5, h6, li{    font-family: 'Titillium Web', sans-serif!important; letter-spacing: .06em; } 
-p, span, a, div, input, textarea, select{font-family: 'Titillium Web', sans-serif!important; letter-spacing: .06em; }
+p, span, a, div, input, textarea, select{font-family: 'Roboto', sans-serif!important; letter-spacing: .06em; }*/
 body, a{ font-weight: 400;}
 a:hover{
 	text-decoration: none!important;
+     line-height: 1.4!important;
 }
 p{ font-weight: 300;font-size: 16px;
+     line-height: 1.6!important;
  }
-h1, h2, h3, h4{   font-weight: 800!important; }
 input, textarea, select{ font-weight: 300; }
 img{max-width: 100%;}
 body {
-        background-color: #f3f2f2!important;
+        background-color: #fff!important;
 }
 
 @-webkit-keyframes typing { from { width: 0; } }
@@ -161,3 +163,49 @@ body {
     top: 0;
     right: 0;
 }
+/*section{
+    background:#fbfbfb;
+}*/
+h2 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+#testimonial{
+   background: transparent;
+}
+
+#testimonial .fa.fa-quote-right{
+  color:#5db4c0;
+  font-size:30px;
+}
+
+#testimonial  p{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+#testimonial img{
+    width: 350px; 
+    height: auto; 
+}
+
+#testimonial .carousel-indicators  li {
+    background-color: #5db4c0;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+}
+
+#testimonial .carousel-indicators li.active {
+    background-color: #888383;
+}
+
+#testimonial .carousel-indicators {
+    bottom: -50px;
+}
+

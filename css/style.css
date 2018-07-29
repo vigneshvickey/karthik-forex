@@ -1,24 +1,55 @@
 .logo{
-	
-	width: 250px;
-	position: relative;
-	filter: brightness(100);
-	top: -40px;
+	padding :10px 0px;
+}
+
+.navbar{
+	min-height: 15px!important;
+	transition: 1s;
+}
+.darkHeader{
+	position: fixed !important;
+top: 0;
+z-index: 9999;
+width: 100%;
+transition: 0.5s;
 }
 .navbar{
 	margin-bottom: 0px!important;
+	border-radius:0px!important;
+	border : 0px!important;
 }
 .navbar-default {
-    background-color: #d51a0f!important;
+    background-color: #D9261C!important;
     border-color: transparent!important;
+    transition: 1s;
 }
 .header{
 	position: relative;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #fff!important;
+    color:#fff!important;
+    transition: 1s;
+       
 }
+.travelExpert{
+	position: relative;
+  top:9px;
+}
+.call-icons{
+	    position: absolute;
+    right: 230px;
+    font-size: 49px;
+    color: #d81c11;
+}
+.navbar-nav>li {
+/*	
+padding:10px;*/
+	}
 
+	.navbar-nav>li:hover{
+	background-color: #fec32b;
+}
+/*
 .section2:before{
 	  content: "";
     width: 100%;
@@ -27,13 +58,12 @@
     position: absolute;
     left: 0;
     top: 0;
-}
+}*/
 .section2{
 background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    top: 52px;
     padding-top: 150px;
     margin-bottom: 300px;
     background-position: center;
@@ -62,8 +92,13 @@ background-color: white;
 }
 .section3  .card{
 background-color: white;
+cursor: pointer;
 
 }
+.section3  .card:hover{
+	 background-color:rgba(218,38,28,0.8)!important;
+	 color: #ffffff!important;
+	}
 .section3 .contact textarea{
 	width: 100%;
 }
@@ -92,6 +127,9 @@ background: white;
 		margin-right: 15px;
 
 	}
+.navbar-default .navbar-nav>.active>a{
+        background-color: #923530!important;
+  }
 
 footer{
 	margin: 30px 0px;
@@ -102,7 +140,26 @@ footer{
 footer ul li{
 	margin-right:10px;
 }
-
+.scrolled{
+	 background-color:#d9261c!important;
+	 transition: 1s;
+	  min-height: 72px!important;
+	  height: 72px!important;
+}
+.scrolled .navbar-nav>li {
+    padding: 10px;
+     transition: 2s;
+}
+.scrolled .navbar-nav>li>a {
+    color:#ffffff!important;
+        font-size: 17px;
+    
+}
+.scrolled .logo {
+    width: 286px;
+     
+            filter: brightness(100);
+}
 /*visa*/
 .visa {
 	background-image: url(../images/visa.jpg)!important;
@@ -125,7 +182,7 @@ color: #fff;
 font-size: 36px;
 }
 .visa-section2 .visa-card {
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -176,3 +233,147 @@ font-size: 36px;
 	cursor: pointer;
 
 	}
+
+
+	/*passwort--------------------------------------------*/
+	
+	.passport {
+	background-image: url(../images/passport.jpg)!important;
+    margin-bottom: 80px;
+    padding: 250px 0px;
+}
+  .passport:before{
+  	content: "";
+  	background: rgba(99,95,98,0.5);
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  }
+	.passport .title-text{
+	  position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    width: 70%;
+        top: 167px;
+}
+.pass-sec3 .bullets{
+    padding-left: 30px;
+}
+.pass-sec3 .arrow-list{
+	display: inline-block;
+}
+.clear{
+	clear: both;
+}
+.pass-sec3 .arrow-list li{
+	    float: left;
+    padding: 15px;
+    background: #eae8e8;
+    margin: 11px;
+	}
+.pass-sec3 .bullets li{
+padding : 10px;
+list-style: square;
+font-size: 16px;
+}
+.pass-sec3  #travelExpert{
+	position: relative;
+}
+.pass-sec3 .call-icon{
+	    position: absolute;
+    left: 39px;
+    font-size: 49px;
+    color: #d81c11;
+}
+
+/*index*/
+.index{
+background-image: url(../images/taj.jpg)!important;
+  margin-bottom: 0px;
+      padding-bottom: 52px;
+      background-position: top;
+}
+.section3 #quote-carousel{
+	    position: relative;
+	    top: -98px;
+}
+.index .contact{
+	position: relative;
+	top: -80px;
+
+	}
+	.index .contact input{
+		background-color: rgba(255, 255, 255, 0.34901960784313724)!important;
+
+	}
+	.index .contact textarea{
+		background-color: rgba(255, 255, 255, 0.34901960784313724)!important;
+		width: 100%;
+
+	}
+
+		/*airtickets--------------------------------------------*/
+	
+	.airtickets {
+	background-image: url(../images/airplane.jpg)!important;
+    margin-bottom: 30px;
+    padding: 250px 0px;
+}
+  .airtickets:before{
+  	content: "";
+  	background: rgba(99,95,98,0.5);
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  }
+	.airtickets .title-text{
+	  position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    width: 70%;
+        top: 167px;
+}
+.air-sec3 #quote-carousel{
+	position: static!important;
+}
+
+.air-sec3  #travelExpert{
+	position: relative;
+}
+.air-sec3 .call-icon{
+	    position: absolute;
+    left: 39px;
+    font-size: 49px;
+    color: #d81c11;
+}
+
+
+/*-----------------------foreign exchange-------------*/
+  .foreign {
+  background-image: url(../images/foreign.jpg)!important;
+    margin-bottom: 30px;
+    padding: 250px 0px;
+}
+.air-sec3  #travelExpert{
+  position: relative;
+}
+.air-sec3 .call-icon{
+      position: absolute;
+    left: 39px;
+    font-size: 66px;
+    color: #d81c11;
+}
+
+/*insutrance----------------*/
+.insurance{
+   background-image: url(../images/family.jpg)!important;
+
+}
