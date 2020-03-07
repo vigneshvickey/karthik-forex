@@ -116,6 +116,7 @@ background: white;
      border-right: 20px solid black;
 
 	}
+
 	.About-karthik{
 		margin-top: 30px;
 	}
@@ -377,3 +378,61 @@ background-image: url(../images/taj.jpg)!important;
    background-image: url(../images/family.jpg)!important;
 
 }
+
+/*////////////////visa detail----------*/
+.visa-details{
+    background-image: url(../images/dubai.jpg)!important;
+    margin-bottom: 30px;
+    padding: 160px 0px;
+}
+.visa-details:before{
+    position: relative!important;
+  }
+  .plan p {
+
+    font-size: 14px!important;
+  }
+    .popular{
+      background: #f7f7f7;
+    padding: 0px 0px 5px;
+        border: 1px solid #d8d8d8;
+           margin: 20px 0px;
+  }
+  .popular .price{
+    background: #FD0;
+    margin: 0!important;
+    padding: 10px;
+  }
+    .popular .price p{
+    margin: 0!important; 
+
+    }
+      .popular ul{
+        margin: 20px 30px;      }
+           .popular ul li{
+    font-size: 16px;
+    margin-top: 5px;
+  }
+   .note-visa{
+    margin:5px 20px 20px;
+   }
+  .note-visa li {
+    padding: 6px;
+    list-style: square;
+  }
+    .section3 .apply-online h3{
+ 
+    padding: 0px;
+    color:#fff;
+    text-align: center;
+    border-left: 20px solid #fff;
+    margin-bottom: 30px;
+     border-right: 20px solid #fff;
+
+  }
+  .apply-online{
+      background: #d9261c;
+    padding: 16px;
+    box-shadow: 1px 1px 6px black;
+     color:#fff;
+  }
